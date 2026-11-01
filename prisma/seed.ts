@@ -9,8 +9,8 @@ async function main() {
 
   const restaurant = await prisma.restaurant.create({
     data: {
-      name: 'Demo Bistro',
-      slug: 'demo-bistro',
+      name: 'The Wooden Spoon',
+      slug: ' wooden-spoon',
       currency: 'INR',
       taxRate: 5.0,
       serviceCharge: 5.0,
